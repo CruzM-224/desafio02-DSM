@@ -33,7 +33,12 @@ class RegisterActivity : AppCompatActivity() {
         buttonRegister.setOnClickListener {
             val email = findViewById<EditText>(R.id.txtEmail).text.toString()
             val password = findViewById<EditText>(R.id.txtPass).text.toString()
-            this.register(email, password)
+            if(email.isNotBlank() and password.isNotBlank()){
+                this.register(email, password)
+            }
+            else {
+                Toast.makeText(this, "No deje espacios vacios", Toast.LENGTH_SHORT).show()
+            }
         }
 
         textViewLogin = findViewById(R.id.textViewLogin)

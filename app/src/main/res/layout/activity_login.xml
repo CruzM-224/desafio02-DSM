@@ -12,7 +12,6 @@
         android:layout_width="237dp"
         android:layout_height="49dp"
         android:layout_marginTop="104dp"
-        android:layout_marginBottom="12dp"
         android:ems="10"
         android:hint="Correo Electronico"
         android:inputType="textEmailAddress"
@@ -20,7 +19,7 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/txtPassword"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,8 +27,6 @@
         android:id="@+id/txtPassword"
         android:layout_width="237dp"
         android:layout_height="49dp"
-        android:layout_marginTop="104dp"
-        android:layout_marginBottom="12dp"
         android:ems="10"
         android:hint="Constraseña"
         android:inputType="textPassword"
@@ -43,7 +40,6 @@
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
         android:text="Autenticar"
         android:textColor="@color/black"
